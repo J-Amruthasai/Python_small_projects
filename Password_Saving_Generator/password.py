@@ -46,12 +46,12 @@ def save():
     else:
     # messagebox.showwarning(tiltle="hello", message="Hey!")
         noyes=messagebox.askokcancel(title = website,message=f"These are the details: \nEmail: {username}\nPassword: {password} \nIs it ok to save?")
-    if noyes:
-        with open("save_data.txt", "a") as file:
-            file.write(f"{website} | {username} | {password}\n")
-        entry_password.delete(0, END)
-        entry_emuser.delete(0, END)
-        entry_web.delete(0, END)
+        if noyes:
+            with open("save_data.txt", "a") as file:
+                file.write(f"{website} | {username} | {password}\n")
+                entry_password.delete(0, END)
+                entry_emuser.delete(0, END)
+                entry_web.delete(0, END)
 
 window = Tk()
 window.title("Password Generator")
