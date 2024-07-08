@@ -14,5 +14,11 @@
             "email": "test1_json@gmail.com",
             "password": "check_same_mail"
         }
+    ],
+    "Amaxon": [
+        {
+            "email": "test@gmail.com",
+            "password": "yxd7y?r0Vj%W1j5"
+        }
     ]
 }
