@@ -1,0 +1,18 @@
+{
+    "test1_json": [
+        {
+            "email": "test1_json@gmail.com",
+            "password": "hAv1Zw9(Cb!!NI7"
+        },
+        {
+            "email": "check_update_or_new@gmail.com",
+            "password": "f8LI4psY87#B![#Qc"
+        }
+    ],
+    "test2_json": [
+        {
+            "email": "test1_json@gmail.com",
+            "password": "check_same_mail"
+        }
+    ]
+}
