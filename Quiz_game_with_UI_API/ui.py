@@ -1,3 +1,5 @@
+# For UI interaction tkinter had been used this contains all the functions for correct answers and wrong answers from user and displaying score ..etc
+
 from tkinter import *
 from quiz_brain import QuizBrain
 
