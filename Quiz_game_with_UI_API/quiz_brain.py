@@ -11,6 +11,7 @@ import html
 # print("The total score is ")
 # print(score)
 
+# same as previous file just changed the question into html unescape entity
 
 class QuizBrain:
     def __init__(self,question_list):
