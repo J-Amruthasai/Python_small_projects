@@ -1,3 +1,5 @@
+# Used the API url to get the questions and answers instead of copy pasting the question like in previous Quiz game
+
 import requests
 
 parameters ={
