@@ -1,3 +1,5 @@
+# the importing of ui.py file does all the work
+
 from question_model import Question
 from data import questions
 from quiz_brain import QuizBrain
